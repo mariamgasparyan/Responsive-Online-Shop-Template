@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <title>Shop</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <script defer src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="visually-hidden">Welcome to Our Shop</h1>
+            <header class="header">
+                <nav class="nav" aria-label="Main navigation">
+                    <a href="#" class="nav__burger">
+                        <img src="images/icon-burger.svg" alt="">
+                    </a>
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                Collections
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                New
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="/" class="header__logo">
+                    <img src="images/logo.svg" alt="">
+                </a>
+                <div class="header__information">
+                    <a href="#" class="header-icon header-icon--favourite">
+                        <svg class="header-icon__svg" width="22" height="22" viewBox="0 0 22 22" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.8059 16.6943L12.7597 15.9457L12.8059 16.6943ZM7.33268 6.82442L7.27619 7.57229C7.4795 7.58765 7.68029 7.51958 7.83234 7.38375C7.98439 7.24792 8.07458 7.05604 8.08216 6.8523L7.33268 6.82442ZM16.5254 13.3716L17.264 13.5015L16.5254 13.3716ZM12.8059 16.6943L12.7597 15.9457C11.1685 16.0438 9.53441 16.2341 7.93558 16.0486C6.37521 15.8676 4.93302 15.3326 3.75939 14.0188L3.20007 14.5185L2.64075 15.0182C4.12626 16.681 5.95231 17.3286 7.76272 17.5386C9.53468 17.7441 11.3739 17.534 12.852 17.4429L12.8059 16.6943ZM3.20007 14.5185L3.75939 14.0188C2.61677 12.7398 2.3858 11.0268 2.96459 9.70578C3.52252 8.43232 4.89677 7.39258 7.27619 7.57229L7.33268 6.82442L7.38916 6.07656C4.45773 5.85515 2.43611 7.17413 1.59067 9.10383C0.766087 10.9859 1.12425 13.3206 2.64075 15.0182L3.20007 14.5185ZM12.8059 16.6943L12.852 17.4429C13.3848 17.4101 13.9662 17.3726 14.4961 17.265C15.0257 17.1575 15.5862 16.9652 16.0342 16.565L15.5346 16.0057L15.0349 15.4463C14.8709 15.5929 14.6086 15.7116 14.1976 15.795C13.7869 15.8784 13.3101 15.9118 12.7597 15.9457L12.8059 16.6943ZM16.5254 13.3716L17.264 13.5015C17.5206 12.043 17.936 10.239 17.9307 8.45516C17.9254 6.63261 17.4871 4.74539 16.0016 3.08251L15.4422 3.58217L14.8829 4.08183C16.0566 5.39559 16.4261 6.88873 16.4307 8.45956C16.4355 10.0691 16.0629 11.6715 15.7867 13.2417L16.5254 13.3716ZM15.4422 3.58217L16.0016 3.08251C14.4851 1.38492 12.2054 0.766803 10.2426 1.37477C8.23015 1.99812 6.69245 3.8588 6.5832 6.79655L7.33268 6.82442L8.08216 6.8523C8.17084 4.46775 9.35835 3.21898 10.6864 2.80761C12.0641 2.38087 13.7403 2.80277 14.8829 4.08183L15.4422 3.58217ZM16.5254 13.3716L15.7867 13.2417C15.6912 13.7847 15.6044 14.2548 15.4754 14.6535C15.3464 15.0525 15.199 15.2998 15.0349 15.4463L15.5346 16.0057L16.0342 16.565C16.4823 16.1647 16.7363 15.6293 16.9026 15.1152C17.069 14.6007 17.1716 14.0272 17.264 13.5015L16.5254 13.3716Z"
+                                class="header-icon__path header-icon__path--fill" />
+                        </svg>
+                    </a>
+
+                    <div class="header-icons">
+                        <a href="#" class="header-icon header-icon--cart">
+                            <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 4C6.29112 5.16519 7.07665 6 8 6C8.92335 6 9.70888 5.16519 10 4"
+                                    class="header-icon__path header-icon__path--stroke" stroke-width="1.5"
+                                    stroke-linecap="round" />
+                                <path
+                                    d="M1.58287 12.8256C2.51504 14 4.24996 14 7.7198 14H8.2802C11.75 14 13.485 14 14.4171 12.8256M1.58287 12.8256C0.650708 11.6511 0.970433 9.86813 1.60989 6.30212C2.06463 3.76617 2.292 2.49819 3.15523 1.74909M1.58287 12.8256C1.58287 12.8256 1.58287 12.8256 1.58287 12.8256ZM14.4171 12.8256C15.3493 11.6511 15.0296 9.86813 14.3901 6.30213C13.9354 3.76617 13.708 2.49819 12.8448 1.74909M14.4171 12.8256C14.4171 12.8256 14.4171 12.8256 14.4171 12.8256ZM12.8448 1.74909C11.9816 1 10.7478 1 8.2802 1H7.7198C5.25223 1 4.01845 1 3.15523 1.74909M12.8448 1.74909C12.8448 1.7491 12.8448 1.74909 12.8448 1.74909ZM3.15523 1.74909C3.15523 1.7491 3.15523 1.74909 3.15523 1.74909Z"
+                                    class="header-icon__path header-icon__path--stroke" stroke-width="1.5" />
+                            </svg>
+                        </a>
+                        <a href="#" class="header-icon__link">
+                            Cart
+                        </a>
+                    </div>
+
+                    <a href="#" class="header-icon">
+                        <svg class="header-icon__svg" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="6.99998" cy="4.42857" r="3.42857"
+                                class="header-icon__path header-icon__path--stroke" stroke-width="1.5" />
+                            <path d="M13 13.8571C13 11.9636 10.3137 10.4286 7 10.4286C3.68629 10.4286 1 11.9636 1 13.8571"
+                                class="header-icon__path header-icon__path--stroke" stroke-width="1.5" />
+                        </svg>
+                    </a>
+                </div>
+            </header>
+            <main class="main">
+                <aside class="filters">
+                    <h3 class="filters__title">
+                        Filters
+                    </h3>
+                    <ul class="filters__list scrollbar">
+                        <li class="filters__item">
+                            <h4 class="filters__sub-title">
+                                Size
+                            </h4>
+                            <div class="filters-size">
+                                <label class="filters-size__label">
+                                    <input type="checkbox" name="size" value="xs" class="filters-size__checkbox">
+                                    xs
+                                </label>
+                                <label class="filters-size__label">
+                                    <input type="checkbox" name="size" value="s" class="filters-size__checkbox">
+                                    s
+                                </label>
+                                <label class="filters-size__label">
+                                    <input type="checkbox" name="size" value="m" class="filters-size__checkbox">
+                                    m
+                                </label>
+                                <label class="filters-size__label">
+                                    <input type="checkbox" name="size" value="l" class="filters-size__checkbox">
+                                    l
+                                </label>
+                                <label class="filters-size__label">
+                                    <input type="checkbox" name="size" value="xl" class="filters-size__checkbox">
+                                    xl
+                                </label>
+                                <label class="filters-size__label">
+                                    <input type="checkbox" name="size" value="2x" class="filters-size__checkbox">
+                                    2x
+                                </label>
+                            </div>
+                        </li>
+
+                        <li class="filters__item">
+                            <a class="filters__link filters__link--active" href="#">
+                                <span class="filters__sub-title">
+                                    Availability
+                                </span>
+                                <svg class="filters__arrow" width="7" height="11" viewBox="0 0 7 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 10L6 5.5L1 1" stroke="black" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                            <div class="filters-content">
+                                <label class="filters-availability__label">
+                                    <input type="checkbox" name="availability" value="availability" class="filters-availability__checkbox">
+                                    <span class="filters-availability__checkmark"></span>
+                                    <span class="filters-availability__text">
+                                        Availability
+                                    </span>
+                                    <span>
+                                        (<a class="filters-availability__link" href="#">450</a>)
+                                    </span>
+                                </label>
+                                <label class="filters-availability__label">
+                                    <input type="checkbox" name="availability" value="out-off-stack" class="filters-availability__checkbox">
+                                    <span class="filters-availability__checkmark"></span>
+                                    <span class="filters-availability__text">
+                                        Out Of Stack
+                                    </span>
+                                    <span>
+                                        (<a class="filters-availability__link" href="#">18</a>)
+                                    </span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="filters__item">
+                            <a class="filters__link" href="#">
+                                <span class="filters__sub-title">
+                                    Category
+                                </span>
+                                <svg class="filters__arrow" width="7" height="11" viewBox="0 0 7 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 10L6 5.5L1 1" stroke="black" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                            <div class="filters-content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, vero.
+                            </div>
+                        </li>
+                        <li class="filters__item">
+                            <a class="filters__link" href="#">
+                                <span class="filters__sub-title">
+                                    Colors
+                                </span>
+                                <svg class="filters__arrow" width="7" height="11" viewBox="0 0 7 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 10L6 5.5L1 1" stroke="black" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                            <div class="filters-content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, vero.
+                            </div>
+                        </li>
+                        <li class="filters__item">
+                            <a class="filters__link" href="#">
+                                <span class="filters__sub-title">
+                                    Price Range
+                                </span>
+                                <svg class="filters__arrow" width="7" height="11" viewBox="0 0 7 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 10L6 5.5L1 1" stroke="black" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                            <div class="filters-content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, vero.
+                            </div>
+                        </li>
+                        <li class="filters__item">
+                            <a class="filters__link" href="#">
+                                <span class="filters__sub-title">
+                                    Collections
+                                </span>
+                                <svg class="filters__arrow" width="7" height="11" viewBox="0 0 7 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 10L6 5.5L1 1" stroke="black" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                            <div class="filters-content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, vero.
+                            </div>
+                        </li>
+                        <li class="filters__item">
+                            <a class="filters__link" href="#">
+                                <span class="filters__sub-title">
+                                    Tags
+                                </span>
+                                <svg class="filters__arrow" width="7" height="11" viewBox="0 0 7 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 10L6 5.5L1 1" stroke="black" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                            <div class="filters-content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, vero.
+                            </div>
+                        </li>
+                        <li class="filters__item">
+                            <a class="filters__link" href="#">
+                                <span class="filters__sub-title">
+                                    Ratings
+                                </span>
+                                <svg class="filters__arrow" width="7" height="11" viewBox="0 0 7 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 10L6 5.5L1 1" stroke="black" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                            <div class="filters-content">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, vero.
+                            </div>
+                        </li>
+                    </ul>
+                </aside>
+                <section class="main__information">
+                    <nav class="breadcrumb" aria-label="breadcrumb">
+                        <ul class="breadcrumb__list">
+                            <li class="breadcrumb__item">
+                                <a href="/" class="breadcrumb__link">
+                                    Home
+                                </a>
+                            </li>
+                            <li aria-current="page" class="breadcrumb__item">
+                                <p class="breadcrumb__txt">
+                                    Products
+                                </p>
+                            </li>
+                        </ul>
+                    </nav>
+                    <h2 class="title title--products">
+                        Products
+                    </h2>
+                    <div class="products__filter">
+                        <form action="#" autocomplete="off" method="get" class="search__form">
+                            <div class="search__group">
+                                <img src="images/icon-search.svg" alt="" class="search__icon">
+                                <input type="text" name="q" placeholder="Search" class="search__field" aria-label="Search">
+                            </div>
+                        </form>
+                        <a href="#" class="filters__title filters__title--clickable">
+                            Filters
+                            <svg class="filters__arrow" width="7" height="11" viewBox="0 0 7 11" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 10L6 5.5L1 1" stroke="black" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <div class="category scrollbar scrollbar--transparent">
+                            <label class="category__label">
+                                <input type="checkbox" name="category" value="new" class="category__checkbox">
+                                New
+                            </label>
+                            <label class="category__label">
+                                <input type="checkbox" name="category" value="shirts" class="category__checkbox">
+                                Shirts
+                            </label>
+                            <label class="category__label">
+                                <input type="checkbox" name="category" value="polo-shirts" class="category__checkbox">
+                                Polo Shirts
+                            </label>
+                            <label class="category__label">
+                                <input type="checkbox" name="category" value="shorts" class="category__checkbox">
+                                Shorts
+                            </label>
+                            <label class="category__label">
+                                <input type="checkbox" name="category" value="shorts" class="category__checkbox">
+                                Shorts
+                            </label>
+                            <label class="category__label">
+                                <input type="checkbox" name="category" value="shorts" class="category__checkbox">
+                                Shorts
+                            </label>
+                            <label class="category__label">
+                                <input type="checkbox" name="category" value="shorts" class="category__checkbox">
+                                Shorts
+                            </label>
+                            <label class="category__label">
+                                <input type="checkbox" name="category" value="shorts" class="category__checkbox">
+                                Shorts
+                            </label>
+                            <label class="category__label">
+                                <input type="checkbox" name="category" value="suits" class="category__checkbox">
+                                Suits
+                            </label>
+                            <label class="category__label">
+                                <input type="checkbox" name="category" value="best-sellers" class="category__checkbox">
+                                Best sellers
+                            </label>
+                            <label class="category__label">
+                                <input type="checkbox" name="category" value="t-shirts" class="category__checkbox">
+                                T-Shirts
+                            </label>
+                            <label class="category__label">
+                                <input type="checkbox" name="category" value="jeans" class="category__checkbox">
+                                Jeans
+                            </label>
+                            <label class="category__label">
+                                <input type="checkbox" name="category" value="jackets" class="category__checkbox">
+                                Jackets
+                            </label>
+                            <label class="category__label">
+                                <input type="checkbox" name="category" value="coats" class="category__checkbox">
+                                Coats
+                            </label>
+                        </div>
+                    </div>
+                </section>
+                <div class="product scrollbar scrollbar--transparent">
+                    <figure class="product__item">
+                        <a href="#" class="product__block">
+                            <img class="product__img" src="images/temporary/pic-1.png" alt="">
+                        </a>
+                        <figcaption>
+                            <div class="product-colors">
+                                <strong class="product-colors__title">
+                                    Cotton T Shirt
+                                </strong>
+                                <div class="product-colors__color product-colors__color--beige"></div>
+                                <p class="product-colors__text">
+                                    +5
+                                </p>
+                            </div>
+                            <div class="product-information">
+                                <p class="product-information__title">
+                                    Basic Slim Fit T-Shirt
+                                </p>
+                                <p class="product-information__price">
+                                    $ 199
+                                </p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="product__item">
+                        <a href="#" class="product__block">
+                            <img class="product__img" src="images/temporary/pic-2.png" alt="">
+                        </a>
+                        <figcaption>
+                            <div class="product-colors">
+                                <strong class="product-colors__title">
+                                    Crewneck T-Shirt
+                                </strong>
+                                <div class="product-colors__color product-colors__color--black"></div>
+                                <p class="product-colors__text">
+                                    +6
+                                </p>
+                            </div>
+                            <div class="product-information">
+                                <p class="product-information__title">
+                                    Basic Heavy Weight T-shirt
+                                </p>
+                                <p class="product-information__price">
+                                    $ 199
+                                </p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="product__item">
+                        <a href="#" class="product__block">
+                            <img class="product__img" src="images/temporary/pic-3.png" alt="">
+                        </a>
+                        <figcaption>
+                            <div class="product-colors">
+                                <strong class="product-colors__title">
+                                    Cotton T Shirt
+                                </strong>
+                            </div>
+                            <div class="product-information">
+                                <p class="product-information__title">
+                                    Full Sleeve Zipper
+                                </p>
+                                <p class="product-information__price">
+                                    $ 199
+                                </p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="product__item">
+                        <a href="#" class="product__block">
+                            <img class="product__img" src="images/temporary/pic-3.png" alt="">
+                        </a>
+                        <figcaption>
+                            <div class="product-colors">
+                                <strong class="product-colors__title">
+                                    Cotton T Shirt
+                                </strong>
+                            </div>
+                            <div class="product-information">
+                                <p class="product-information__title">
+                                    Full Sleeve Zipper
+                                </p>
+                                <p class="product-information__price">
+                                    $ 199
+                                </p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="product__item">
+                        <a href="#" class="product__block">
+                            <img class="product__img" src="images/temporary/pic-1.png" alt="">
+                        </a>
+                        <figcaption>
+                            <div class="product-colors">
+                                <strong class="product-colors__title">
+                                    Cotton T Shirt
+                                </strong>
+                                <div class="product-colors__color product-colors__color--beige"></div>
+                                <p class="product-colors__text">
+                                    +5
+                                </p>
+                            </div>
+                            <div class="product-information">
+                                <p class="product-information__title">
+                                    Basic Slim Fit T-Shirt
+                                </p>
+                                <p class="product-information__price">
+                                    $ 199
+                                </p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="product__item">
+                        <a href="#" class="product__block">
+                            <img class="product__img" src="images/temporary/pic-2.png" alt="">
+                        </a>
+                        <figcaption>
+                            <div class="product-colors">
+                                <strong class="product-colors__title">
+                                    Crewneck T-Shirt
+                                </strong>
+                                <div class="product-colors__color product-colors__color--black"></div>
+                                <p class="product-colors__text">
+                                    +6
+                                </p>
+                            </div>
+                            <div class="product-information">
+                                <p class="product-information__title">
+                                    Basic Heavy Weight T-shirt
+                                </p>
+                                <p class="product-information__price">
+                                    $ 199
+                                </p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="product__item">
+                        <a href="#" class="product__block">
+                            <img class="product__img" src="images/temporary/pic-2.png" alt="">
+                        </a>
+                        <figcaption>
+                            <div class="product-colors">
+                                <strong class="product-colors__title">
+                                    Crewneck T-Shirt
+                                </strong>
+                                <div class="product-colors__color product-colors__color--black"></div>
+                                <p class="product-colors__text">
+                                    +6
+                                </p>
+                            </div>
+                            <div class="product-information">
+                                <p class="product-information__title">
+                                    Basic Heavy Weight T-shirt
+                                </p>
+                                <p class="product-information__price">
+                                    $ 199
+                                </p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="product__item">
+                        <a href="#" class="product__block">
+                            <img class="product__img" src="images/temporary/pic-3.png" alt="">
+                        </a>
+                        <figcaption>
+                            <div class="product-colors">
+                                <strong class="product-colors__title">
+                                    Cotton T Shirt
+                                </strong>
+                            </div>
+                            <div class="product-information">
+                                <p class="product-information__title">
+                                    Full Sleeve Zipper
+                                </p>
+                                <p class="product-information__price">
+                                    $ 199
+                                </p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="product__item">
+                        <a href="#" class="product__block">
+                            <img class="product__img" src="images/temporary/pic-1.png" alt="">
+                        </a>
+                        <figcaption>
+                            <div class="product-colors">
+                                <strong class="product-colors__title">
+                                    Cotton T Shirt
+                                </strong>
+                                <div class="product-colors__color product-colors__color--beige"></div>
+                                <p class="product-colors__text">
+                                    +5
+                                </p>
+                            </div>
+                            <div class="product-information">
+                                <p class="product-information__title">
+                                    Basic Slim Fit T-Shirt
+                                </p>
+                                <p class="product-information__price">
+                                    $ 199
+                                </p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
