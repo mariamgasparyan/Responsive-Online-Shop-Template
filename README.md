@@ -10,3 +10,9 @@ A clean and modern HTML/CSS template for an e-commerce storefront. This project 
 - **Semantic HTML5** – Clean, accessible, and well-structured markup
 - **W3C Validator Clean** – Zero validation errors or warnings
 - **Customizable UI** – Simple layout easy to restyle for personal or commercial use
+
+## Live Demo
+
+- **[Default Version (LTR)](https://mariamgasparyan.github.io/Responsive-Online-Shop-Template/)**
+- **[RTL Version (Arabic)](https://mariamgasparyan.github.io/Responsive-Online-Shop-Template/index-rtl.html)**
+
